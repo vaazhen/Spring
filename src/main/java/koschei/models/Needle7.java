@@ -1,12 +1,13 @@
-package app.model;
+package koschei.models;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-@Component("dog")
-public class Dog extends Animal {
+@Component
+public class Needle7 {
+
     @Override
     public String toString() {
-        return "Im a Dog";
+        return ", смерть Кощея на игле :( ";
     }
 }
