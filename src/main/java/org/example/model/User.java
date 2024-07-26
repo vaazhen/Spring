@@ -1,8 +1,7 @@
-package org.example.entity;
+package org.example.model;
 
 
 import jakarta.persistence.*;
-import org.springframework.stereotype.Component;
 
 @Entity
 @Table(name = "user")
